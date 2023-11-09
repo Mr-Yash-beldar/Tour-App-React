@@ -1,7 +1,7 @@
 import  {React ,useState}  from "react";
 import data from "./data";    
 import Tours from "./components/tours"
-import "./App.css";
+import "./index.css";
 
 function App() {
 const [tours,setTours]=useState(data);
